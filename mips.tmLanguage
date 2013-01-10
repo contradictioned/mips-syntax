@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>s</string>
+		<string>asm</string>
+	</array>
+	<key>name</key>
+	<string>MIPS</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Registers by id $1, $2, ...</string>
+			<key>match</key>
+			<string>\$(((3[01])|([12]?[0-9])|[0-9])|zero|at|v[01]|a[0-3]|s[0-7]|t[0-9]|k[01]|gp|sp|fp|ra)</string>
+			<key>name</key>
+			<string>variable.parameter.mips</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Just the hardcoded instructions provided by the MIPS assembly language</string>
+			<key>match</key>
+			<string>\b(add|addu|addi|addiu|sub|subu|and|andi|or|not|ori|nor|xor|xori|slt|sltu|slti|sltiu|sll|sllv|rol|srl|sra|srlv|ror|j|jr|jal|beq|bne|lw|sw|lui|move|mfhi|mflo|mthi|mtlo)\b</string>
+			<key>name</key>
+			<string>support.function.source.mips</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Numbers like +12, -3, 55, 0x3F</string>
+			<key>match</key>
+			<string>\b((0(x|X)[0-9A-Fa-f]*)|((\-)?[0-9]*))\b</string>
+			<key>name</key>
+			<string>constant.numeric.mips</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Labels at line start: begin_repeat: add ...</string>
+			<key>match</key>
+			<string>\b[\w]+:\b</string>
+			<key>name</key>
+			<string>meta.function.mips</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>One line comments, starting with a '#'</string>
+			<key>match</key>
+			<string>#(.)*$</string>
+			<key>name</key>
+			<string>comment.line.source.mips</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.mips</string>
+	<key>uuid</key>
+	<string>f43b595a-700b-4f4f-a525-9c78c44d0254</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+{
+	"schema_version": "1.2",
+	"packages": [
+		{
+			"name": "MIPS-Syntax",
+			"description": "Provides MIPS-Syntax for Sublime Text 2. Currently under development",
+			"author": "Manuel Hoffmann",
+			"homepage": "https://github.com/contradictioned/mips-syntax",
+			"last_modified": "2013-01-10 15:06:26",
+			"platforms": {
+				"*": [
+					{
+						"version": "0.1",
+						"url": "https://nodeload.github.com/contradictioned/mips-syntax/zip/0.1"
+					}
+				]
+			}
+		}
+	]
+}
