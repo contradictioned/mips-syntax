@@ -1,0 +1,59 @@
+{ "name": "MIPS",
+  "scopeName": "source.mips",
+  "fileTypes": ["s", "asm"],
+  "patterns": [
+    {
+        "name": "storage.modifier.mips",
+        "match": "\\.\\b(align|ascii|asciiz|byte|double|extern|float|globl|space|word)\\b",
+        "comment": "Assembler directives for data storage"
+    },
+    {
+        "name": "entity.name.section.mips",
+        "match": "\\.\\b(data|text|kdata|ktext|)\\b",
+        "comment": "Segements: .data .text"
+    },
+    {
+        "name": "variable.parameter.mips",
+        "match": "\\$(((3[01])|([12]?[0-9])|[0-9])|zero|at|v[01]|a[0-3]|s[0-7]|t[0-9]|k[01]|gp|sp|fp|ra)",
+        "comment": "Registers by id $1, $2, ..."
+    },
+    {
+        "name": "support.function.source.mips",
+        "match": "\\b(add|addu|addi|addiu|sub|subu|and|andi|or|not|ori|nor|xor|xori|slt|sltu|slti|sltiu|sll|sllv|rol|srl|sra|srlv|ror|j|jr|jal|beq|bne|lw|sw|lui|move|mfhi|mflo|mthi|mtlo)\\b",
+        "comment": "Just the hardcoded instructions provided by the MIPS assembly language"
+    },
+    {
+        "name": "support.function.other.mips",
+        "match": "\\b(abs|b|beqz|bge|bgt|bgtu|ble|bleu|blt|bltu|bnez|div|divu|la|li|move|mul|neg|not|rem|remu|seq|sge|sgt|sle|sne)\\b",
+        "comment": "Pseudo instructions"
+    },
+    {
+        "name": "entity.name.function.mips",
+        "match": "\\b(syscall)\\b",
+        "comment": "Other"
+    },
+    {
+        "name": "string.quoted.double.mips",
+        "begin": "\"",
+        "patterns": [{"match": ".", "name": "string.ssraw"}],
+        "end": "\"",
+        "comment": "Strings"
+    },
+    {
+        "name": "constant.numeric.mips",
+        "match": "\\b((0(x|X)[0-9A-Fa-f]*)|((\\-)?[0-9]*))\\b",
+        "comment": "Numbers like +12, -3, 55, 0x3F"
+    },
+    {
+        "name": "entity.name.tag.mips",
+        "match": "\\b[\\w]+\\b:",
+        "comment": "Labels at line start: begin_repeat: add ..."
+    },
+    {
+        "name": "comment.line.number-sign.mips",
+        "match": "#.*$",
+        "comment": "Sinlge line comments"
+    }
+  ],
+  "uuid": "f43b595a-700b-4f4f-a525-9c78c44d0254"
+}

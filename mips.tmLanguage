@@ -13,6 +13,22 @@
 	<array>
 		<dict>
 			<key>comment</key>
+			<string>Assembler directives for data storage</string>
+			<key>match</key>
+			<string>\.\b(align|ascii|asciiz|byte|double|extern|float|globl|space|word)\b</string>
+			<key>name</key>
+			<string>storage.modifier.mips</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Segements: .data .text</string>
+			<key>match</key>
+			<string>\.\b(data|text|kdata|ktext|)\b</string>
+			<key>name</key>
+			<string>entity.name.section.mips</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Registers by id $1, $2, ...</string>
 			<key>match</key>
 			<string>\$(((3[01])|([12]?[0-9])|[0-9])|zero|at|v[01]|a[0-3]|s[0-7]|t[0-9]|k[01]|gp|sp|fp|ra)</string>
@@ -29,6 +45,41 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Pseudo instructions</string>
+			<key>match</key>
+			<string>\b(abs|b|beqz|bge|bgt|bgtu|ble|bleu|blt|bltu|bnez|div|divu|la|li|move|mul|neg|not|rem|remu|seq|sge|sgt|sle|sne)\b</string>
+			<key>name</key>
+			<string>support.function.other.mips</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Other</string>
+			<key>match</key>
+			<string>\b(syscall)\b</string>
+			<key>name</key>
+			<string>entity.name.function.mips</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>comment</key>
+			<string>Strings</string>
+			<key>end</key>
+			<string>"</string>
+			<key>name</key>
+			<string>string.quoted.double.mips</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>.</string>
+					<key>name</key>
+					<string>string.ssraw</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Numbers like +12, -3, 55, 0x3F</string>
 			<key>match</key>
 			<string>\b((0(x|X)[0-9A-Fa-f]*)|((\-)?[0-9]*))\b</string>
@@ -39,17 +90,17 @@
 			<key>comment</key>
 			<string>Labels at line start: begin_repeat: add ...</string>
 			<key>match</key>
-			<string>\b[\w]+:\b</string>
+			<string>\b[\w]+\b:</string>
 			<key>name</key>
-			<string>meta.function.mips</string>
+			<string>entity.name.tag.mips</string>
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>One line comments, starting with a '#'</string>
+			<string>Sinlge line comments</string>
 			<key>match</key>
-			<string>#(.)*$</string>
+			<string>#.*$</string>
 			<key>name</key>
-			<string>comment.line.source.mips</string>
+			<string>comment.line.number-sign.mips</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
