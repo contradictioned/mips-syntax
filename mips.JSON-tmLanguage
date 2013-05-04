@@ -52,7 +52,7 @@
     {
         "name": "comment.line.number-sign.mips",
         "match": "#.*$",
-        "comment": "Sinlge line comments"
+        "comment": "Single line comments"
     }
   ],
   "uuid": "f43b595a-700b-4f4f-a525-9c78c44d0254"
