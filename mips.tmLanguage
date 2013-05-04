@@ -96,7 +96,7 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Sinlge line comments</string>
+			<string>Single line comments</string>
 			<key>match</key>
 			<string>#.*$</string>
 			<key>name</key>
