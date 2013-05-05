@@ -37,6 +37,14 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Floating point registers</string>
+			<key>match</key>
+			<string>\$f([0-9]|[1-2][0-9]|3[0-1])</string>
+			<key>name</key>
+			<string>variable.parameter.mips</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>The MIPS floating-point instruction set</string>
 			<key>match</key>
 			<string>\b((add|sub|div|l|mov|mul|neg|s|c\.eq|c\.le|c\.lt)\.[ds]|cvt\.s\.[dw]|cvt\.d\.[sw]|cvt\.w\.[ds]|bc1[tf])\b</string>
