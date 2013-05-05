@@ -18,6 +18,16 @@
         "comment": "Registers by id $1, $2, ..."
     },
     {
+        "match": "\\$f([0-9]|[1-2][0-9]|3[0-1])",
+        "name": "variable.parameter.mips",
+        "comment": "Floating point registers"
+    },
+    {
+        "match": "\\b((add|sub|div|l|mov|mul|neg|s|c\\.eq|c\\.le|c\\.lt)\\.[ds]|cvt\\.s\\.[dw]|cvt\\.d\\.[sw]|cvt\\.w\\.[ds]|bc1[tf])\\b",
+        "name": "support.function.source.mips",
+        "comment": "The MIPS floating-point instruction set"
+    },
+    {
         "name": "support.function.source.mips",
         "match": "\\b(add|addu|addi|addiu|sub|subu|and|andi|or|not|ori|nor|xor|xori|slt|sltu|slti|sltiu|sll|sllv|rol|srl|sra|srlv|ror|j|jr|jal|beq|bne|lw|sw|lui|move|mfhi|mflo|mthi|mtlo)\\b",
         "comment": "Just the hardcoded instructions provided by the MIPS assembly language"
