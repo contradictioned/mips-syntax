@@ -23,7 +23,7 @@
         "comment": "Floating point registers"
     },
     {
-        "match": "\\b((add|sub|div|l|mov|mul|neg|s|c\\.eq|c\\.le|c\\.lt)\\.[ds]|cvt\\.s\\.[dw]|cvt\\.d\\.[sw]|cvt\\.w\\.[ds]|bc1[tf])\\b",
+        "match": "\\b((add|sub|div|l|mov|mult|neg|s|c\\.eq|c\\.le|c\\.lt)\\.[ds]|cvt\\.s\\.[dw]|cvt\\.d\\.[sw]|cvt\\.w\\.[ds]|bc1[tf])\\b",
         "name": "support.function.source.mips",
         "comment": "The MIPS floating-point instruction set"
     },

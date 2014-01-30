@@ -6,11 +6,11 @@
 			"description": "Provides MIPS-Syntax for Sublime Text 2. Currently under development",
 			"author": "Manuel Hoffmann",
 			"homepage": "https://github.com/contradictioned/mips-syntax",
-			"last_modified": "2013-01-10 15:06:26",
+			"last_modified": "2014-01-30 11:29:24",
 			"platforms": {
 				"*": [
 					{
-						"version": "0.1",
+						"version": "0.1.2",
 						"url": "https://nodeload.github.com/contradictioned/mips-syntax/zip/0.1"
 					}
 				]
