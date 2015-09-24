@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>if (cond == 1) go to PC+4+100</description>
+    <content><![CDATA[bc1t ${1:100}]]></content>
+    <tabTrigger>branch_on_float_true</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>
