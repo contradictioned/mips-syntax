@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$d = HI</description>
+    <content><![CDATA[mfhi \$${1:d}]]></content>
+    <tabTrigger>move_from_high</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

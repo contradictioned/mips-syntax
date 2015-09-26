@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>Coprocessor[Z].DataRegister[$x] = Memory[$y + CONST]</description>
+    <content><![CDATA[lwcZ \$${1:x},${2:CONST(\$y)}]]></content>
+    <tabTrigger>load_word_coprocessor</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

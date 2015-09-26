@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>shifts shamt number of bits</description>
+    <content><![CDATA[sra \$${1:d}, \$${2:t}, ${3:shamt}]]></content>
+    <tabTrigger>shift_right_arithmetic_immediate</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

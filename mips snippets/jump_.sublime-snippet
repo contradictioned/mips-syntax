@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>PC = PC+4[31:28] . C*4</description>
+    <content><![CDATA[j ${1:Label}]]></content>
+    <tabTrigger>jump_</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

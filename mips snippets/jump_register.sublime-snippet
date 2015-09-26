@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>goto address $s</description>
+    <content><![CDATA[jr \$${1:s}]]></content>
+    <tabTrigger>jump_register</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>div $s,$t; mflo $d</description>
+    <content><![CDATA[div \$${1:d},\$${2:s},\$${3:t}]]></content>
+    <tabTrigger>divides_and_returns_quotient</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

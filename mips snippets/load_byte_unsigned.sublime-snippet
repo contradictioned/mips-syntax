@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$t = Memory[$s + C] (unsigned)</description>
+    <content><![CDATA[lbu \$${1:t}, ${2:N}(\$${3:s})]]></content>
+    <tabTrigger>load_byte_unsigned</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>lui $rd,IMMED[31:16]; ori $rd,$rd,IMMED[15:0]</description>
+    <content><![CDATA[li \$${1:rd},${2:IMMED}]]></content>
+    <tabTrigger>load_immediate</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

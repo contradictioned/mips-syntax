@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>add $rt,$rs,$zero</description>
+    <content><![CDATA[move \$${1:rt},\$${2:rs}]]></content>
+    <tabTrigger>move_</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

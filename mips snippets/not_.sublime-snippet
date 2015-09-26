@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>nor $rt,$rs,$zero</description>
+    <content><![CDATA[not \$${1:rt},\$${2:rs}]]></content>
+    <tabTrigger>not_</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

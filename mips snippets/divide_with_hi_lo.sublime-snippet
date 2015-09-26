@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>LO=$s / $t; HI=$s % $t</description>
+    <content><![CDATA[div \$${1:s}, \$${2:t}]]></content>
+    <tabTrigger>divide_with_hi_lo</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

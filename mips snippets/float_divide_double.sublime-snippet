@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$x = $y / $z</description>
+    <content><![CDATA[div.d \$${1:x},\$${2:y},\$${3:z}]]></content>
+    <tabTrigger>float_divide_double</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$t = $s + C (unsigned)</description>
+    <content><![CDATA[addiu \$${1:t}, \$${2:s}, ${3:Label}]]></content>
+    <tabTrigger>add_immediate_unsigned</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$d = LO</description>
+    <content><![CDATA[mflo \$${1:d}]]></content>
+    <tabTrigger>move_from_low</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

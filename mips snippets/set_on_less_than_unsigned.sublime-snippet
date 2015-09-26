@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$d = ($s &lt; $t)</description>
+    <content><![CDATA[sltu \$${1:d}, \$${2:s}, \$${3:t}]]></content>
+    <tabTrigger>set_on_less_than_unsigned</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$t = Memory[$s + C] (signed)</description>
+    <content><![CDATA[lh \$${1:t}, ${2:N}(\$${3:s})]]></content>
+    <tabTrigger>load_halfword</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

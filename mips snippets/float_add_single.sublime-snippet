@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$x = $y + $z</description>
+    <content><![CDATA[add.s \$${1:x},\$${2:y},\$${3:z}]]></content>
+    <tabTrigger>float_add_single</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>beq $rs,$zero,Label</description>
+    <content><![CDATA[beqz \$${1:rs},${2:Label}]]></content>
+    <tabTrigger>branch_if_equal_to_zero</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>slt $at,$rt,$rs; beq $at,$zero,Label</description>
+    <content><![CDATA[ble \$${1:rs},\$${2:rt},${3:Label}]]></content>
+    <tabTrigger>branch_if_less_than_or_equal</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

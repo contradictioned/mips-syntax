@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>Memory[$s + C] = $t</description>
+    <content><![CDATA[sw \$${1:t}, ${2:N}(\$${3:s})]]></content>
+    <tabTrigger>store_word</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

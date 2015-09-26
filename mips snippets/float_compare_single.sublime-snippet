@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>if ($f2 &lt; $f4) cond=1; else cond=0</description>
+    <content><![CDATA[c.lt.s \$${1:f2},\$${2:f4}]]></content>
+    <tabTrigger>float_compare_single</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

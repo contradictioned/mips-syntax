@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>lui $rd,LabelAddr[31:16]; ori $rd,$rd,LabelAddr[15:0]</description>
+    <content><![CDATA[la \$${1:rd},${2:LabelAddr}]]></content>
+    <tabTrigger>load_address</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

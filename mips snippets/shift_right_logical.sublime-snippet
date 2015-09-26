@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$d = $t &gt;&gt; $s</description>
+    <content><![CDATA[srlv \$${1:d}, \$${2:t}, \$${3:s}]]></content>
+    <tabTrigger>shift_right_logical</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>bgezal $zero,Label</description>
+    <content><![CDATA[bal ${1:Label}]]></content>
+    <tabTrigger>branch_and_link</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

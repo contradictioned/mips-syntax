@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$t = C &lt;&lt; 16</description>
+    <content><![CDATA[lui \$${1:t}, ${2:Label}]]></content>
+    <tabTrigger>load_upper_immediate</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

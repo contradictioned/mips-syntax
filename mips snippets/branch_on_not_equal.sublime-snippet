@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>if ($s != $t) go to PC+4+4*C</description>
+    <content><![CDATA[bne \$${1:s}, \$${2:t}, ${3:Label}]]></content>
+    <tabTrigger>branch_on_not_equal</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

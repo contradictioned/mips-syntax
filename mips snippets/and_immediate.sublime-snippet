@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$t = $s & C</description>
+    <content><![CDATA[andi \$${1:t}, \$${2:s}, ${3:Label}]]></content>
+    <tabTrigger>and_immediate</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

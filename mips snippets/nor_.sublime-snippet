@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$d = ~ ($s | $t)</description>
+    <content><![CDATA[nor \$${1:d}, \$${2:s}, \$${3:t}]]></content>
+    <tabTrigger>nor_</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

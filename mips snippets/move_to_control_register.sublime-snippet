@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>Coprocessor[Z].ControlRegister[$d] = $t</description>
+    <content><![CDATA[mtcZ \$${1:t}, \$${2:d}]]></content>
+    <tabTrigger>move_to_control_register</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

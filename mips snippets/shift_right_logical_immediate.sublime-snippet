@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>$d = $t &gt;&gt; shamt</description>
+    <content><![CDATA[srl \$${1:d}, \$${2:t}, ${3:shamt}]]></content>
+    <tabTrigger>shift_right_logical_immediate</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>

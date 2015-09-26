@@ -1,0 +1,7 @@
+<!-- THIS WAS AUTOMATED GENERATED -->
+<snippet>
+    <description>LO=(($s * $t)&lt;&lt;32)&gt;&gt;32; HI=($s * $t)&gt;&gt;32;</description>
+    <content><![CDATA[mult \$${1:s}, \$${2:t}]]></content>
+    <tabTrigger>multiply_with_hi_lo</tabTrigger>
+    <scope>source.mips</scope>
+</snippet>
