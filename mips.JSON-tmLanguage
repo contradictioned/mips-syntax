@@ -29,7 +29,7 @@
     },
     {
         "name": "support.function.source.mips",
-        "match": "\\b(add|addu|addi|addiu|sub|subu|and|andi|or|not|ori|nor|xor|xori|slt|sltu|slti|sltiu|sll|sllv|rol|srl|sra|srlv|ror|j|jr|jal|beq|bne|lw|sw|lui|move|mfhi|mflo|mthi|mtlo)\\b",
+        "match": "\\b(add|addu|addi|addiu|sub|subi|subu|and|andi|or|not|ori|nor|xor|xori|slt|sltu|slti|sltiu|sll|sllv|rol|srl|sra|srlv|ror|j|jr|jal|beq|bne|lw|sw|lui|move|mfhi|mflo|mthi|mtlo)\\b",
         "comment": "Just the hardcoded instructions provided by the MIPS assembly language"
     },
     {
